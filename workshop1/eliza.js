@@ -72,9 +72,15 @@ var rules = {
     "Why do you need ~y?",
     "Suppose you got ~y soon.",
   ],
+  "~*x Im having an existential breakdown ~*y": [
+    "Hahahaha SUX",  
+  ],
+  "~*x What is your favorite food? ~*y": [
+    "Altoid and Lemon are good good food",  
+  ],
   "~*x if ~*y": [
-    "Do you really think it's likely that ~y?",
-    "Do you wish that ~y?",
+    "Shush lil guy ~y?",
+    "I doubt you will ever ~y?",
     "What do you think about ~y?",
     "Really--if ~y?",
   ],
@@ -85,6 +91,12 @@ var rules = {
   ],
   "~*x I dream about ~*y": [
     "How do you feel about ~y in reality?",
+  ],
+  "~*x I ate ~*y": [
+    "ARE YOU FULL?",  
+  ],
+  "~*x I dream about ~*y": [
+    "How do you feel about ~y in reality?",  
   ],
   "~*x dream ~*y": [
     "What does this dream suggest to you?",
@@ -171,6 +183,9 @@ var rules = {
     "Is that the real reason?",
     "What other reasons might there be?",
     "Does that reason seem to explain anything else?",
+  ],
+  "~*x DO you have any pets ~*y": [
+    "BIG PUP",  
   ],
   "~*x were you ~*y": [
     "Perhaps I was ~y?",
